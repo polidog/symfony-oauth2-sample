@@ -71,9 +71,10 @@ swiftmailer:
     spool:     { type: memory }
 
 knpu_oauth2_client:
-      yconnect_client:
-          type: generic
-          provider_class: Tavii\OAuth2\Client\Provider\YConnect
-          client_id: "%oauth_yconnect_client_id%"
-          client_secret: "%oauth_yconnect_client_secret%"
-          redirect_route: app_yahoo_callback
+    clients:
+        yconnect_client:
+            type: generic
+            provider_class: Tavii\OAuth2\Client\Provider\YConnect
+            client_id: "%oauth_yconnect_client_id%"
+            client_secret: "%oauth_yconnect_client_secret%"
+            redirect_route: app_yahoo_callback
