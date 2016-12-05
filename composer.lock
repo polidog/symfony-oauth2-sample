@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c36338b2a14f8c578dbbd5280a11019",
-    "content-hash": "66ee5f2eb304caeb9adc4723f2196985",
+    "hash": "a935c5eb58cf8637527641e3f575251d",
+    "content-hash": "6bcc3273d25b8b74164ac5aa0fc56477",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2342,6 +2342,56 @@
                 "framework"
             ],
             "time": "2016-11-30 08:46:24"
+        },
+        {
+            "name": "tavii/oauth2-yconnect",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tavii/oauth2-yconnect.git",
+                "reference": "f49ff101cae9129cde04c08ac4dd44ff7f558a73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tavii/oauth2-yconnect/zipball/f49ff101cae9129cde04c08ac4dd44ff7f558a73",
+                "reference": "f49ff101cae9129cde04c08ac4dd44ff7f558a73",
+                "shasum": ""
+            },
+            "require": {
+                "league/oauth2-client": "^1.4",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tavii\\OAuth2\\Client\\Provider\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "polidog",
+                    "email": "polidogs@gmail.com"
+                }
+            ],
+            "description": "Yahoo Japan Yconnect library",
+            "keywords": [
+                "authorisation",
+                "authorization",
+                "client",
+                "oauth",
+                "oauth2",
+                "yahoo",
+                "yahoojapan",
+                "yconnect"
+            ],
+            "time": "2016-11-11 01:18:58"
         },
         {
             "name": "twig/twig",
