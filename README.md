@@ -1,4 +1,11 @@
-oauth2-sandbox
+symfony-oauth2-sample
 ==============
 
-A Symfony project created on December 5, 2016, 11:14 pm.
+## 使い方
+
+```
+$ git clone https://github.com/polidog/symfony-oauth2-sample.git
+$ cd ymfony-oauth2-sample
+$ bin/console server:start
+$ open http://localhost:8000/yahoo/
+```

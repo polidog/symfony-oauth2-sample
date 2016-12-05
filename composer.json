@@ -1,5 +1,5 @@
 {
-    "name": "polidog/oauth2.sandbox",
+    "name": "polidog/symfony-oauth2-sample",
     "license": "proprietary",
     "type": "project",
     "autoload": {

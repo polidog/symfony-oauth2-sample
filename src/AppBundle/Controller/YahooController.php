@@ -26,7 +26,7 @@ class YahooController extends Controller
     {
         return $this->get('oauth2.registry')
             ->getClient('yconnect_client') // key used in config.yml
-            ->redirect();
+            ->redirect(['profile']);
     }
 
     /**
@@ -42,7 +42,7 @@ class YahooController extends Controller
         try {
             /** @var YConnectResourceOwner $user */
             $user = $client->fetchUser();
-            var_dump($user->getId());die;
+            var_dump($user->toArray());die;
             // ...
         } catch (IdentityProviderException $e) {
             var_dump($e->getMessage());die;
